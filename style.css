@@ -34,7 +34,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    color: white; /* Düğme yazısının rengi */
+    color: white; 
 }
 
 .choice:hover {
