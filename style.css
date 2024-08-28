@@ -34,6 +34,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    color: white; /* Düğme yazısının rengi */
 }
 
 .choice:hover {
@@ -64,6 +65,15 @@ button:hover {
     display: none;
 }
 
-#next-btn, #stop-btn, #continue-btn {
+#next-btn,
+#stop-btn,
+#continue-btn {
     display: none;
+}
+
+#choices button.disabled {
+    background-color: #565757;
+    color: #fdf1f1;
+    cursor: not-allowed;
+    border: 1px solid #999;
 }
