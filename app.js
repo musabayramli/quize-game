@@ -1,113 +1,111 @@
 const quizData = [
-  {
-    question: "JavaScript hansı il icad olunub?",
-    choices: ["1993", "1995", "1996", "2000"],
-    correct: "1995",
-  },
-  {
-    question: "HTML nə deməkdir?",
-    choices: [
-      "HyperText Markup Language",
-      "HighText Machine Language",
-      "HyperLoop Machine Language",
-      "HyperText Main Language",
-    ],
-    correct: "HyperText Markup Language",
-  },
-  {
-    question: "CSS nə üçün istifadə olunur?",
-    choices: [
-      "Strukturlaşdırma",
-      "Stil vermə",
-      "Məntiq qurma",
-      "Məlumat saxlama",
-    ],
-    correct: "Stil vermə",
-  },
-  {
-    question: "JavaScript-də hansı məlumat növü mövcuddur?",
-    choices: ["String", "Number", "Boolean", "Hamısı"],
-    correct: "Hamısı",
-  },
-  {
-    question: "HTML-də bir düymə necə yaradılır?",
-    choices: ["<button>", "<btn>", "<input>", "<düymə>"],
-    correct: "<button>",
-  },
-  {
-    question: "CSS-də necə rəng təyin etmək olar?",
-    choices: ["color", "background-color", "font-color", "Hamısı"],
-    correct: "Hamısı",
-  },
-  {
-    question: "JavaScript-də DOM nə üçün istifadə olunur?",
-    choices: ["Strukturlaşdırma", "Dinamik məzmun", "Əlaqə", "Bilmədim"],
-    correct: "Dinamik məzmun",
-  },
-  {
-    question: "JavaScript-də necə funksiya elan edilir?",
-    choices: [
-      "function myFunc()",
-      "def myFunc()",
-      "function:myFunc()",
-      "fun myFunc()",
-    ],
-    correct: "function myFunc()",
-  },
-  {
-    question: "CSS-də 'flexbox' nə üçün istifadə olunur?",
-    choices: [
-      "Elementlərin düzülüşünü idarə etmək",
-      "Fon şəkli əlavə etmək",
-      "Şriftin ölçüsünü dəyişmək",
-      "Elementin görünməsini idarə etmək",
-    ],
-    correct: "Elementlərin düzülüşünü idarə etmək",
-  },
-  {
-    question: "JavaScript-də 'for' dövrü nə üçün istifadə olunur?",
-    choices: [
-      "Dəyişən elan etmək",
-      "Funksiya çağırmaq",
-      "Döngü yaratmaq",
-      "Array yaratmaq",
-    ],
-    correct: "Döngü yaratmaq",
-  },
-  {
-    question: "HTML-də hansı başlıq elementi ən böyükdür?",
-    choices: ["<h1>", "<h2>", "<h3>", "<h4>"],
-    correct: "<h1>",
-  },
-  {
-    question: "JavaScript-də hansı işarə məntiqi 'və' əməliyyatını göstərir?",
-    choices: ["&&", "||", "==", "!="],
-    correct: "&&",
-  },
-  {
-    question: "CSS-də 'margin' nə üçün istifadə olunur?",
-    choices: [
-      "Elementin daxilində boşluq yaratmaq",
-      "Elementin xaricində boşluq yaratmaq",
-      "Fon rəngini dəyişmək",
-      "Mətnin rəngini dəyişmək",
-    ],
-    correct: "Elementin xaricində boşluq yaratmaq",
-  },
-  {
-    question: "JavaScript-də 'NaN' nə deməkdir?",
-    choices: ["Number and Null", "Not a Number", "Null and NaN", "Not a Null"],
-    correct: "Not a Number",
-  },
-  {
-    question:
-      "HTML-də şəkil əlavə etmək üçün hansı elementdən istifadə olunur?",
-    choices: ["<img>", "<src>", "<pic>", "<image>"],
-    correct: "<img>",
-  },
-];
-
-quizData.forEach((q) => (q.time = Math.floor(Math.random() * 9) + 10));
+    {
+      question: "JavaScript hansı il icad olunub?",
+      choices: ["1993", "1995", "1996", "2000"],
+      correct: "1995",
+    },
+    {
+      question: "HTML nə deməkdir?",
+      choices: [
+        "HyperText Markup Language",
+        "HighText Machine Language",
+        "HyperLoop Machine Language",
+        "HyperText Main Language",
+      ],
+      correct: "HyperText Markup Language",
+    },
+    {
+      question: "CSS nə üçün istifadə olunur?",
+      choices: [
+        "Strukturlaşdırma",
+        "Stil vermə",
+        "Məntiq qurma",
+        "Məlumat saxlama",
+      ],
+      correct: "Stil vermə",
+    },
+    {
+      question: "JavaScript-də hansı məlumat növü mövcuddur?",
+      choices: ["String", "Number", "Boolean", "Hamısı"],
+      correct: "Hamısı",
+    },
+    {
+      question: "HTML-də bir düymə necə yaradılır?",
+      choices: ["<button>", "<btn>", "<input>", "<düymə>"],
+      correct: "<button>",
+    },
+    {
+      question: "CSS-də necə rəng təyin etmək olar?",
+      choices: ["color", "background-color", "font-color", "Hamısı"],
+      correct: "Hamısı",
+    },
+    {
+      question: "JavaScript-də DOM nə üçün istifadə olunur?",
+      choices: ["Strukturlaşdırma", "Dinamik məzmun", "Əlaqə", "Bilmədim"],
+      correct: "Dinamik məzmun",
+    },
+    {
+      question: "JavaScript-də necə funksiya elan edilir?",
+      choices: [
+        "function myFunc()",
+        "def myFunc()",
+        "function:myFunc()",
+        "fun myFunc()",
+      ],
+      correct: "function myFunc()",
+    },
+    {
+      question: "CSS-də 'flexbox' nə üçün istifadə olunur?",
+      choices: [
+        "Elementlərin düzülüşünü idarə etmək",
+        "Fon şəkli əlavə etmək",
+        "Şriftin ölçüsünü dəyişmək",
+        "Elementin görünməsini idarə etmək",
+      ],
+      correct: "Elementlərin düzülüşünü idarə etmək",
+    },
+    {
+      question: "JavaScript-də 'for' dövrü nə üçün istifadə olunur?",
+      choices: [
+        "Dəyişən elan etmək",
+        "Funksiya çağırmaq",
+        "Döngü yaratmaq",
+        "Array yaratmaq",
+      ],
+      correct: "Döngü yaratmaq",
+    },
+    {
+      question: "HTML-də hansı başlıq elementi ən böyükdür?",
+      choices: ["<h1>", "<h2>", "<h3>", "<h4>"],
+      correct: "<h1>",
+    },
+    {
+      question: "JavaScript-də hansı işarə məntiqi 'və' əməliyyatını göstərir?",
+      choices: ["&&", "||", "==", "!="],
+      correct: "&&",
+    },
+    {
+      question: "CSS-də 'margin' nə üçün istifadə olunur?",
+      choices: [
+        "Elementin daxilində boşluq yaratmaq",
+        "Elementin xaricində boşluq yaratmaq",
+        "Fon rəngini dəyişmək",
+        "Mətnin rəngini dəyişmək",
+      ],
+      correct: "Elementin xaricində boşluq yaratmaq",
+    },
+    {
+      question: "JavaScript-də 'NaN' nə deməkdir?",
+      choices: ["Number and Null", "Not a Number", "Null and NaN", "Not a Null"],
+      correct: "Not a Number",
+    },
+    {
+      question:
+        "HTML-də şəkil əlavə etmək üçün hansı elementdən istifadə olunur?",
+      choices: ["<img>", "<src>", "<pic>", "<image>"],
+      correct: "<img>",
+    },
+  ].map(q => ({ ...q, time: Math.floor(Math.random() * 9) + 10 }));
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -115,23 +113,33 @@ let timer;
 let timeLeft;
 let isPaused = false;
 
+const elements = {
+  startBtn: document.getElementById("start-btn"),
+  stopBtn: document.getElementById("stop-btn"),
+  continueBtn: document.getElementById("continue-btn"),
+  nextBtn: document.getElementById("next-btn"),
+  question: document.getElementById("question"),
+  choices: document.getElementById("choices"),
+  time: document.getElementById("time"),
+  quiz: document.getElementById("quiz"),
+  result: document.getElementById("result"),
+  score: document.getElementById("score"),
+};
+
 function startQuiz() {
-  document.getElementById("start-btn").style.display = "none";
-  document.getElementById("stop-btn").style.display = "inline-block";
+  toggleVisibility(elements.startBtn, false);
+  toggleVisibility(elements.stopBtn, true);
   loadQuestion();
 }
 
 function startTimer() {
-  if (timer) {
-    clearInterval(timer); 
-  }
+  if (timer) clearInterval(timer);
 
-  document.getElementById("time").textContent = timeLeft;
-
-  timer = setInterval(function () {
+  elements.time.textContent = timeLeft;
+  timer = setInterval(() => {
     if (!isPaused) {
       timeLeft--;
-      document.getElementById("time").textContent = timeLeft;
+      elements.time.textContent = timeLeft;
       if (timeLeft <= 0) {
         clearInterval(timer);
         nextQuestion();
@@ -142,66 +150,58 @@ function startTimer() {
 
 function loadQuestion() {
   clearInterval(timer);
+  const { question, choices } = quizData[currentQuestionIndex];
 
-  const questionData = quizData[currentQuestionIndex];
-  document.getElementById("question").textContent = questionData.question;
+  elements.question.textContent = question;
+  elements.choices.innerHTML = choices.map(choice => 
+    `<button class="choice">${choice}</button>`
+  ).join("");
 
-  const choicesContainer = document.getElementById("choices");
-  choicesContainer.innerHTML = "";
-
-  questionData.choices.forEach(function (choice) {
-    const button = document.createElement("button");
-    button.textContent = choice;
-    button.className = "choice";
-    button.onclick = function () {
-      selectAnswer(button, choice);
-    };
-    choicesContainer.appendChild(button);
+  Array.from(elements.choices.children).forEach(button => {
+    button.onclick = () => selectAnswer(button);
   });
 
   timeLeft = quizData[currentQuestionIndex].time;
   startTimer();
 }
 
-function selectAnswer(button, choice) {
+function selectAnswer(selectedButton) {
   clearInterval(timer);
 
-  const questionData = quizData[currentQuestionIndex];
+  const { correct } = quizData[currentQuestionIndex];
+  const isCorrect = selectedButton.textContent === correct;
 
-  if (choice === questionData.correct) {
-    score += 100;
-    button.style.backgroundColor = "green";
-    button.style.color = "white";
-  } else {
-    button.style.backgroundColor = "red";
-    button.style.color = "white";
-  }
+  updateButtonStyles(selectedButton, isCorrect);
+  if (isCorrect) score += 100;
 
   disableAllButtons();
+  toggleControlButtons(true);
+}
 
-  // Start və Stop düymələrini deaktiv edirik və stillərini dəyişirik
-  const startButton = document.getElementById("start-btn");
-  const stopButton = document.getElementById("stop-btn");
-
-  startButton.disabled = true;
-  stopButton.disabled = true;
-
-  startButton.style.backgroundColor = "#613c3c";
-  stopButton.style.backgroundColor = "#613c3c"; 
-
-  startButton.style.color = "#ccc"; 
-  stopButton.style.color = "#ccc"; 
-
-  document.getElementById("next-btn").style.display = "inline-block";
-  document.getElementById("next-btn").disabled = false;
+function updateButtonStyles(button, isCorrect) {
+  button.classList.add(isCorrect ? 'correct' : 'incorrect');
 }
 
 function disableAllButtons() {
-  const buttons = document.querySelectorAll("#choices button");
-  buttons.forEach(function (button) {
+  Array.from(elements.choices.children).forEach(button => {
     button.disabled = true;
-    button.classList.add("disabled");
+    button.classList.add('disabled');
   });
+}
+
+function toggleControlButtons(disabled) {
+  toggleButton(elements.startBtn, disabled);
+  toggleButton(elements.stopBtn, disabled);
+  toggleVisibility(elements.nextBtn, disabled);
+}
+
+function toggleButton(button, disabled) {
+  button.disabled = disabled;
+  button.classList.toggle('disabled-btn', disabled);
+}
+
+function toggleVisibility(element, isVisible) {
+  element.style.display = isVisible ? "inline-block" : "none";
 }
 
 function nextQuestion() {
@@ -209,20 +209,7 @@ function nextQuestion() {
 
   if (currentQuestionIndex < quizData.length) {
     loadQuestion();
-    document.getElementById("next-btn").style.display = "none";
-
-    // Start və Stop düymələrini yenidən aktiv edirik və orijinal stillərə qaytarırıq
-    const startButton = document.getElementById("start-btn");
-    const stopButton = document.getElementById("stop-btn");
-
-    startButton.disabled = false;
-    stopButton.disabled = false;
-
-    startButton.style.backgroundColor = "";
-    stopButton.style.backgroundColor = "";
-
-    startButton.style.color = ""; 
-    stopButton.style.color = ""; 
+    toggleControlButtons(false);
   } else {
     showResult();
   }
@@ -231,43 +218,44 @@ function nextQuestion() {
 function stopQuiz() {
   isPaused = true;
   clearInterval(timer);
-  document.getElementById("stop-btn").style.display = "none";
-  document.getElementById("continue-btn").style.display = "inline-block";
+  toggleVisibility(elements.stopBtn, false);
+  toggleVisibility(elements.continueBtn, true);
 }
 
 function continueQuiz() {
   isPaused = false;
-  document.getElementById("continue-btn").style.display = "none";
-  document.getElementById("stop-btn").style.display = "inline-block";
-  startTimer(); 
+  toggleVisibility(elements.continueBtn, false);
+  toggleVisibility(elements.stopBtn, true);
+  startTimer();
 }
 
 function showResult() {
-  document.getElementById("quiz").style.display = "none";
-  document.getElementById("result").style.display = "block";
-  document.getElementById("score").textContent = `Siz ${score}/${
+  toggleVisibility(elements.quiz, false);
+  toggleVisibility(elements.result, true);
+  elements.score.textContent = `Siz ${score}/${
     quizData.length * 100
   } bal topladınız!`;
 }
 
 function restartQuiz() {
   currentQuestionIndex = 0;
+  score = 0;
   isPaused = false;
 
-  document.getElementById("quiz").style.display = "block";
-  document.getElementById("result").style.display = "none";
-  document.getElementById("start-btn").style.display = "inline-block";
-  document.getElementById("stop-btn").style.display = "none";
-  document.getElementById("continue-btn").style.display = "none";
-  document.getElementById("next-btn").style.display = "none";
+  toggleVisibility(elements.quiz, true);
+  toggleVisibility(elements.result, false);
+  toggleVisibility(elements.startBtn, true);
+  toggleVisibility(elements.stopBtn, false);
+  toggleVisibility(elements.continueBtn, false);
+  toggleVisibility(elements.nextBtn, false);
 
-  document.getElementById("choices").innerHTML = "";
-  document.getElementById("question").textContent = "";
-  document.getElementById("time").textContent = "10";
+  elements.choices.innerHTML = "";
+  elements.question.textContent = "";
+  elements.time.textContent = "10";
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("next-btn").style.display = "none";
-  document.getElementById("stop-btn").style.display = "none";
-  document.getElementById("continue-btn").style.display = "none";
+document.addEventListener("DOMContentLoaded", () => {
+  toggleVisibility(elements.nextBtn, false);
+  toggleVisibility(elements.stopBtn, false);
+  toggleVisibility(elements.continueBtn, false);
 });

@@ -34,7 +34,8 @@ body {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    color: white; 
+    color: white;
+    transition: background 0.3s ease;
 }
 
 .choice:hover {
@@ -55,6 +56,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 button:hover {
@@ -65,15 +67,45 @@ button:hover {
     display: none;
 }
 
+.disabled-btn {
+    background-color: #565757;
+    color: #fdf1f1;
+    cursor: not-allowed;
+    border: 1px solid #999;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.incorrect {
+    background-color: red;
+    color: white;
+}
+
 #next-btn,
 #stop-btn,
 #continue-btn {
     display: none;
 }
 
-#choices button.disabled {
-    background-color: #565757;
-    color: #fdf1f1;
-    cursor: not-allowed;
-    border: 1px solid #999;
+
+@media (max-width: 400px) {
+    .quiz-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #question {
+        font-size: 16px;
+    }
+
+    .choice {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px;
+    }
 }
