@@ -55,15 +55,15 @@ const quizData = [
     correct: "function myFunc()",
   },
   {
-    question: "CSS-də 'float' nə üçün istifadə olunur?",
+    question: "CSS-də 'flexbox' nə üçün istifadə olunur?",
     choices: [
-      "Mətnin ətrafına sarılma",
-      "Elementin üzməsi",
-      "Fon şəkli",
-      "Məlumat saxlama",
+      "Elementlərin düzülüşünü idarə etmək",
+      "Fon şəkli əlavə etmək",
+      "Şriftin ölçüsünü dəyişmək",
+      "Elementin görünməsini idarə etmək",
     ],
-    correct: "Mətnin ətrafına sarılma",
-  },
+    correct: "Elementlərin düzülüşünü idarə etmək",
+},
   {
     question: "JavaScript-də 'for' dövrü nə üçün istifadə olunur?",
     choices: [
